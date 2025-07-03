@@ -1,0 +1,18 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+.import
+
+# macOS metadata
+.DS_Store
+
+# Windows metadata
+Thumbs.db
+desktop.ini
+
+# Build artifacts (Godot exports)
+*.exe
+*.apk
+*.aab
+*.pck
+*.zip

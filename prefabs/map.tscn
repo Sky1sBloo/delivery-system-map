@@ -1,0 +1,178 @@
+[gd_scene load_steps=3 format=3 uid="uid://6m2sstkwsecv"]
+
+[ext_resource type="Script" uid="uid://dcyn7v3v1p3od" path="res://prefabs/map.gd" id="1_hjd75"]
+[ext_resource type="Texture2D" uid="uid://c6kp1nf5p6ya4" path="res://sprites/Map.png" id="1_r1rsb"]
+
+[node name="Map" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_hjd75")
+
+[node name="Map" type="Sprite2D" parent="."]
+position = Vector2(493, 386.5)
+scale = Vector2(0.709375, 0.712037)
+texture = ExtResource("1_r1rsb")
+
+[node name="LineGuide" type="Node2D" parent="."]
+
+[node name="Paranaque" type="Marker2D" parent="LineGuide"]
+position = Vector2(264, 588)
+
+[node name="Ilagan" type="Marker2D" parent="LineGuide"]
+position = Vector2(408, 160)
+
+[node name="Vigan" type="Marker2D" parent="LineGuide"]
+position = Vector2(208, 96)
+
+[node name="Aparri" type="Marker2D" parent="LineGuide"]
+position = Vector2(364, 68)
+
+[node name="Laoag" type="Marker2D" parent="LineGuide"]
+position = Vector2(220, 44)
+
+[node name="Tuguegarao" type="Marker2D" parent="LineGuide"]
+position = Vector2(376, 124)
+
+[node name="Alaminos" type="Marker2D" parent="LineGuide"]
+position = Vector2(188, 284)
+
+[node name="SanCarlos" type="Marker2D" parent="LineGuide"]
+position = Vector2(208, 300)
+
+[node name="SanFernando" type="Marker2D" parent="LineGuide"]
+position = Vector2(228, 152)
+
+[node name="Cauayan" type="Marker2D" parent="LineGuide"]
+position = Vector2(368, 208)
+
+[node name="Baguio" type="Marker2D" parent="LineGuide"]
+position = Vector2(252, 220)
+
+[node name="Santiago" type="Marker2D" parent="LineGuide"]
+position = Vector2(324, 236)
+
+[node name="Dagupan" type="Marker2D" parent="LineGuide"]
+position = Vector2(236, 252)
+
+[node name="Urdaneta" type="Marker2D" parent="LineGuide"]
+position = Vector2(292, 268)
+
+[node name="Bayombong" type="Marker2D" parent="LineGuide"]
+position = Vector2(388, 280)
+
+[node name="Tarlac" type="Marker2D" parent="LineGuide"]
+position = Vector2(312, 316)
+
+[node name="Angeles" type="Marker2D" parent="LineGuide"]
+position = Vector2(320, 348)
+
+[node name="Olongapo" type="Marker2D" parent="LineGuide"]
+position = Vector2(140, 376)
+
+[node name="Malolos" type="Marker2D" parent="LineGuide"]
+position = Vector2(268, 376)
+
+[node name="Bulacan" type="Marker2D" parent="LineGuide"]
+position = Vector2(184, 412)
+
+[node name="SanJose" type="Marker2D" parent="LineGuide"]
+position = Vector2(276, 416)
+
+[node name="Meycauayan" type="Marker2D" parent="LineGuide"]
+position = Vector2(188, 444)
+
+[node name="Caloocan" type="Marker2D" parent="LineGuide"]
+position = Vector2(200, 496)
+
+[node name="Marikina" type="Marker2D" parent="LineGuide"]
+position = Vector2(308, 528)
+
+[node name="Taguig" type="Marker2D" parent="LineGuide"]
+position = Vector2(200, 524)
+
+[node name="Manila" type="Marker2D" parent="LineGuide"]
+position = Vector2(276, 540)
+
+[node name="Antipolo" type="Marker2D" parent="LineGuide"]
+position = Vector2(336, 564)
+
+[node name="Quezon" type="Marker2D" parent="LineGuide"]
+position = Vector2(312, 568)
+
+[node name="Pasig" type="Marker2D" parent="LineGuide"]
+position = Vector2(284, 596)
+
+[node name="Makati" type="Marker2D" parent="LineGuide"]
+position = Vector2(252, 608)
+
+[node name="Pasay" type="Marker2D" parent="LineGuide"]
+position = Vector2(276, 612)
+
+[node name="Bacoor" type="Marker2D" parent="LineGuide"]
+position = Vector2(476, 612)
+
+[node name="Muntinlupa" type="Marker2D" parent="LineGuide"]
+position = Vector2(512, 608)
+
+[node name="Dasmarinas" type="Marker2D" parent="LineGuide"]
+position = Vector2(524, 636)
+
+[node name="Luecna" type="Marker2D" parent="LineGuide"]
+position = Vector2(504, 656)
+
+[node name="Tayabas" type="Marker2D" parent="LineGuide"]
+position = Vector2(544, 676)
+
+[node name="Subic" type="Marker2D" parent="LineGuide"]
+position = Vector2(224, 660)
+
+[node name="Balanga" type="Marker2D" parent="LineGuide"]
+position = Vector2(288, 688)
+
+[node name="Cavite" type="Marker2D" parent="LineGuide"]
+position = Vector2(408, 664)
+
+[node name="Imus" type="Marker2D" parent="LineGuide"]
+position = Vector2(428, 680)
+
+[node name="Tanauan" type="Marker2D" parent="LineGuide"]
+position = Vector2(484, 720)
+
+[node name="Batangas" type="Marker2D" parent="LineGuide"]
+position = Vector2(484, 732)
+
+[node name="Lipa" type="Marker2D" parent="LineGuide"]
+position = Vector2(488, 748)
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 0
+offset_left = 648.0
+offset_top = 41.0
+offset_right = 1176.0
+offset_bottom = 528.0
+color = Color(0.94902, 1, 1, 1)
+
+[node name="Route" type="Line2D" parent="."]
+width = 5.0
+default_color = Color(0.90257, 0.286298, 0.288449, 1)
+
+[node name="NotFoundCityMarker" type="ColorRect" parent="."]
+visible = false
+offset_left = 32.0
+offset_top = 112.0
+offset_right = 72.0
+offset_bottom = 152.0
+color = Color(1, 1, 0, 1)
+
+[node name="InvalidJsonMarker" type="ColorRect" parent="."]
+visible = false
+layout_mode = 0
+offset_left = 16.0
+offset_top = 16.0
+offset_right = 56.0
+offset_bottom = 56.0
+color = Color(1, 0, 0, 1)

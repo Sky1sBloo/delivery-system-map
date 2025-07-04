@@ -121,7 +121,7 @@ position = Vector2(512, 608)
 [node name="Dasmarinas" type="Marker2D" parent="LineGuide"]
 position = Vector2(524, 636)
 
-[node name="Luecna" type="Marker2D" parent="LineGuide"]
+[node name="Lucena" type="Marker2D" parent="LineGuide"]
 position = Vector2(504, 656)
 
 [node name="Tayabas" type="Marker2D" parent="LineGuide"]
@@ -133,7 +133,7 @@ position = Vector2(224, 660)
 [node name="Balanga" type="Marker2D" parent="LineGuide"]
 position = Vector2(288, 688)
 
-[node name="Cavite" type="Marker2D" parent="LineGuide"]
+[node name="CaviteCity" type="Marker2D" parent="LineGuide"]
 position = Vector2(408, 664)
 
 [node name="Imus" type="Marker2D" parent="LineGuide"]
@@ -142,7 +142,7 @@ position = Vector2(428, 680)
 [node name="Tanauan" type="Marker2D" parent="LineGuide"]
 position = Vector2(484, 720)
 
-[node name="Batangas" type="Marker2D" parent="LineGuide"]
+[node name="BatangasCity" type="Marker2D" parent="LineGuide"]
 position = Vector2(484, 732)
 
 [node name="Lipa" type="Marker2D" parent="LineGuide"]
@@ -162,6 +162,7 @@ default_color = Color(0.90257, 0.286298, 0.288449, 1)
 
 [node name="NotFoundCityMarker" type="ColorRect" parent="."]
 visible = false
+layout_mode = 0
 offset_left = 32.0
 offset_top = 112.0
 offset_right = 72.0
